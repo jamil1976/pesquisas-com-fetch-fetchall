@@ -44,7 +44,7 @@ foreach ($read->fetchAll() as $user){
  * pode armazenar esse resultado em uma variável para manipilar e exibir posteriormente.
  */
 fullStackPHPClassSession("fetch save", __LINE__);
-$read = $connect->query("SELECT * FROM users LIMIT 3");
+$read = $connect->query("SELECT * FROM users LIMIT 2");
 $result = $read->fetchAll();
 
 //Sem fazer o foreach para separar os resultados
